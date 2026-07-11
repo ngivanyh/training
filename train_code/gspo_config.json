@@ -1,0 +1,43 @@
+{
+    "model_name": "",
+    "dry_run": true,
+    "start_training": false,
+    "project_root": "",
+    "run_gguf_commands": false,
+    "trust_remote_code": false,
+    "export_config": {
+        "output_path": "./",
+        "lora_output_path": "{output_path}/{model_name}_lora",
+        "merged_16bit_path": "{output_path}/{model_name}_merged_16bit",
+        "gguf_output_path": "{output_path}/{model_name}_gguf",
+        "export_lora_adapter": true,
+        "export_merged_16bit_local": false,
+        "push_merged_16bit_to_hf": false,
+        "export_gguf_q8_0_local": false,
+        "push_q8_0_gguf_to_hf": false,
+        "export_mmproj_local": false
+    },
+    "external_services": {
+        "hf_username": "your-hf-username",
+        "hf_token": "",
+        "hf_repo_16bit": "{hf_username}/{model_name}-16bit",
+        "hf_repo_gguf": "{hf_username}/{model_name}-GGUF",
+        "wandb_project": "wandb_project",
+        "wandb_key": ""
+    }
+    "lora_config": {
+        "": ""
+    },
+    "model_config": {
+        "max_seq_length": 4096,
+        "load_in_4bit": true,
+        "fast_inference": false,
+        "chat_template": "auto"
+    },
+    "dataset_config": {
+        "dataset_path": "",
+        "max_train_samples": 128,
+        "sample_strategy": "first",
+        "seed": 3407
+    }
+}

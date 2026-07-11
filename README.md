@@ -1,11 +1,16 @@
 <div align="center">
 
+# training
+My foray into learning LLM (post-)training, forked from Jackrong's LLM Fine-tuning Guide
+
+This repo will mainly focus on trying to make a few training scripts for others to use (once I've tried)
+
+---
+
 # Jackrong LLM Fine-Tuning Guide
 
 An educational, end-to-end open-source knowledge base for LLM fine-tuning,
 dataset distillation, reinforcement learning, and local deployment.
-
-🌐 **Languages:** English | [中文](docs/README_zh.md) | [한국어](docs/README_ko.md) | [日本語](docs/README_ja.md)
 
 🤗 **Hugging Face:** [Jackrong](https://huggingface.co/Jackrong)
 
@@ -59,7 +64,6 @@ This repository is a growing educational resource portal for beginners and devel
 | ⚙️ Qwen MTP GGUF Skill | Agent-ready MTP extraction, injection, conversion, validation, quantization, and upload pipeline | [Open](qwen-mtp-gguf/) |
 | 📘 Guides and Reports | Long-form PDF tutorials and technical reports | [Open](guidePDF/) |
 | 🌐 Multilingual Docs | Chinese, Korean, and Japanese landing pages plus documentation indexes | [Open](docs/) |
-| 🤖 Codex Goal Templates | Editable goal templates for RL training, MTP GGUF conversion, and repository maintenance | [Open](codex-goals/) |
 
 ## 🏋️ Training Recipes
 
